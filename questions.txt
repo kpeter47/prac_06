@@ -1,0 +1,33 @@
+1. You can comment selected lines of code using the shortcut key Ctrl + /  
+
+2. The single most important design principle for designing functions is probably "the Single Responsibility Principle (SRP)." This principle states that a function should do one thing and do it well. A function should have a clear and well-defined purpose.
+
+3. The keyword for returning a value from a function is return. You use the return statement followed by the value you want to return from the function. For example:
+
+def add(a, b):
+    return a + b
+
+4. Arguments and parameters are related to functions in programming:
+
+Parameters: These are the placeholders or variables defined in the function's declaration. They represent the values that a function expects as input.
+
+Arguments: These are the actual values or expressions that you pass into a function when calling it. 
+
+
+The difference between parameters and arguments is that parameters are used in the function definition, while arguments are the actual values passed when calling the function.
+
+5. To generate a random number between 1 and 100 in Python, you can use the random module. Here's an example of how to do it:
+
+
+import random
+
+random_number = random.randint(1, 100)
+
+6. Some common functions used are:
+    print(): Used to print output to the console.
+    input(): Used to take user input from the console.
+    len(): Used to find the length of a string, list, or other iterable.
+    str(): Used to convert a value to a string.
+    
+    
+
